@@ -1,4 +1,4 @@
-*FINAL PROGRAM 2 FINPRO PROGDAS*
+*This is FINAL PROGRAM 2 FINPRO PROGDAS created by me*
 
 #include<stdio.h>
 #include<string.h>
