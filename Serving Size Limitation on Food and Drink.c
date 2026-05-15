@@ -6,10 +6,10 @@
 int main(){
 
     // JUDUL PROGRAM
-    printf("=====================================================\n");
-    printf("      PROGRAM ANALISIS BATAS KONSUMSI\n");
-    printf("   Berdasarkan Takaran Saji Pada Kemasan\n");
-    printf("=====================================================\n\n");
+    printf("===================================================\n");
+    printf("          PROGRAM ANALISIS BATAS KONSUMSI\n");
+    printf("       Berdasarkan Takaran Saji Pada Kemasan\n");
+    printf("===================================================\n\n");
 
     // VARIABEL
     int jenis_produk;
@@ -107,6 +107,40 @@ int main(){
 
         } while(kategori_umur < 1 || kategori_umur > 3);
 
+ 		// MENAMPILKAN INFORMASI BATAS KONSUMSI
+        if(kategori_umur == 1){
+
+            printf("\n===============================================\n");
+            printf("> Menampilkan Batas Harian Kategori Anak-anak\n\n");
+            printf("Gula             : 17 - 25 gram\n");
+            printf("Natrium          : 840 - 1200 mg\n");
+            printf("Lemak jenuh      : 7 - 10 gram\n");
+            printf("Kebutuhan energi : 1400 kkal/hari\n");
+            printf("===============================================\n");
+        }
+
+        else if(kategori_umur == 2){
+
+            printf("\n===============================================\n");
+            printf("> Menampilkan Batas Harian Kategori Remaja\n\n");
+            printf("Gula             : 28 - 40 gram\n");
+            printf("Natrium          : 1050 - 1500 mg\n");
+            printf("Lemak jenuh      : 10 - 15 gram\n");
+            printf("Kebutuhan energi : 2000 kkal/hari\n");
+            printf("===============================================\n");
+        }
+
+        else{
+
+            printf("\n===============================================\n");
+            printf("> Menampilkan Batas Harian Kategori Dewasa\n\n");
+            printf("Gula             : 35 - 50 gram\n");
+            printf("Natrium          : 1400 - 2000 mg\n");
+            printf("Lemak jenuh      : 14 - 20 gram\n");
+            printf("Kebutuhan energi : 2150 kkal/hari\n");
+            printf("===============================================\n");
+        }
+        
         // MENENTUKAN BATAS KONSUMSI
         if(kategori_umur == 1){
 
